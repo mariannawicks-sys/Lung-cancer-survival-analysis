@@ -25,3 +25,19 @@ Run in order:
 ```r
 install.packages(c("survival", "survminer", "dplyr", "ggplot2"))
 ```
+## Key Figures
+
+### Overall Kaplan-Meier Survival Curve
+![KM Overall](km_survival_plot.png)
+
+### Survival by Smoking Status
+![KM Smoking](km_smoking_survival_plot.png)
+
+### Survival by Cancer Stage
+![Survival by Stage](survival_by_stage.png)
+
+### Survival by Treatment Type
+![Survival by Treatment](survival_by_treatment.png)
+
+### Cox Model Hazard Ratios
+![Cox Forest Plot](cox_forest_plot.png)
