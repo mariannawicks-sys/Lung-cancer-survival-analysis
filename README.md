@@ -41,3 +41,7 @@ install.packages(c("survival", "survminer", "dplyr", "ggplot2"))
 
 ### Cox Model Hazard Ratios
 ![Cox Forest Plot](cox_forest_plot.png)
+## Key Results
+
+Model results including the Cox model summary, proportional hazards 
+test, and goodness-of-fit test are saved in `cox_model_summary.txt`.
